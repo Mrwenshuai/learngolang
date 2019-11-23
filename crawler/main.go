@@ -5,10 +5,4 @@ func main() {
 		Url:"http://www.zhenai.com/zhenghun",
 		ParserFunc:parser.ParseCityList,
 	})
-
-	//content,err := ioutil.ReadFile("README.md")
-	//if err != nil {
-	//	panic(err)
-	//}
-	//fmt.Println(string(content[:]))
 }
